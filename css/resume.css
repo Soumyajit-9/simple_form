@@ -1,0 +1,23 @@
+div{
+    background-color: coral;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 118, 252);
+}
+
+.color{
+    background-color: burlywood;
+}
+
+h4{
+    font-size: 25px;
+    font-style: italic;
+}
+
+#address{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}

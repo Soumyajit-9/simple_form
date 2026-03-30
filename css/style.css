@@ -1,0 +1,25 @@
+/* element selector */
+
+div{
+    background-color: salmon;
+}
+/* group selector */
+
+h1, h2{
+    font-style: italic;
+    color: brown;
+    font-size: 40px;
+}
+
+/* id selector */
+
+#para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: royalblue;
+}
+
+.color{
+    background-color: chocolate;
+    color: cyan;
+}
