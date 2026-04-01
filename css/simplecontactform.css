@@ -9,13 +9,8 @@ body {
 }
 
 .content {
-    /* all side */
-    /* margin:100px; */
-    /* top-bttom right-left */
-    /* margin:100px 200px; */
-    /* top right bottom left */
-    /* margin: 100px 30px 200px 60px; */
-    margin: 20px auto;
+   
+    margin: 10px auto;
     width: 35%;
     padding: 30px;
 }

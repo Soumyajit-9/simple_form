@@ -1,0 +1,11 @@
+ /* all side */
+    /* margin:100px; */
+
+    /* top-bttom right-left */
+    /* margin:100px 200px; */
+
+    /* top right bottom left */
+    /* margin: 100px 30px 200px 60px; */
+    
+    /* top left-right bottom
+    margin:250px 50px 100px  */
