@@ -1,27 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/simplecontactform.css">
-</head>
-<body>
-    <h1>Simple Contact Form</h1>
-    <form action="">
+    <link rel="stylesheet" href="./css/simplecontactform.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Simple Contact Form</h1>
+      <form action="">
         <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="Firstname" placeholder="first name">
+        <input
+          type="text"
+          id="first_name"
+          name="Firstname"
+          placeholder="first name"
+        />
         <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="lastname" placeholder="last name">
+        <input
+          type="text"
+          id="last_name"
+          name="lastname"
+          placeholder="last name"
+        />
         <label for="email">Email</label>
-        <input type="text" id="email" name="Email" placeholder="email">
+        <input type="text" id="email" name="Email" placeholder="email" />
         <label for="phone">Phone Number</label>
-        <input type="text" name="phone" id="phone" placeholder="phone number">
+        <input type="text" name="phone" id="phone" placeholder="phone number" />
         <label for="city">City</label>
-        <input type="text" name="city" id="city" placeholder="city">
+        <input type="text" name="city" id="city" placeholder="city" />
         <label for="msg">Message</label>
-        <textarea name="msg" id="msg" placeholder="Message"></textarea>
-        <input type="submit" value="send">
-    </form>
-</body>
+        <textarea name="msg" id="msg" placeholder="Message" rows="5"></textarea>
+        <input type="submit" value="send" class="btn" />
+      </form>
+    </div>
+  </body>
 </html>
