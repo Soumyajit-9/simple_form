@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(32, 131, 236, 0.792), rgb(152, 44, 171));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.container h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 20%;
+    background-color: white;
+    margin: 100px auto;
+    padding: 30px;
+
+}
+
+.container form label {
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.container form input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(rgba(32, 131, 236, 0.792), rgb(152, 44, 171));
+    border: none;
+}
+
+a {
+    color: blue;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+p {
+    text-transform: capitalize;
+    text-align: center;
+}

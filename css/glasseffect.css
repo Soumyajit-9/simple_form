@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/wallhaven-28pjo6_2560x1080.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

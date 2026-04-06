@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-image: linear-gradient(to  right , red, black,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width:50%;
+    margin:100px auto;
+    background-color: bisque;
+    /* left_to_right, top_to_bottom , blur color */
+    box-shadow: inset 10px 10px grey, 10px 10px rgb(4, 4, 173) ;
+}
+
+.box p{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+}

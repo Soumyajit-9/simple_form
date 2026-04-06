@@ -1,11 +1,13 @@
  /* all side */
-    /* margin:100px; */
+ /* margin:100px; */
 
-    /* top-bttom right-left */
-    /* margin:100px 200px; */
+ /* top-bttom right-left */
+ /* margin:100px 200px; */
 
-    /* top right bottom left */
-    /* margin: 100px 30px 200px 60px; */
-    
-    /* top left-right bottom
+ /* top right bottom left */
+ /* margin: 100px 30px 200px 60px; */
+
+ /* top left-right bottom
     margin:250px 50px 100px  */
+ /* border-box ensures that added padding doesn't cause overflow or misalignment. */
+ /* The box-sizing property allows us to include the padding and border in an element's total width and height. */

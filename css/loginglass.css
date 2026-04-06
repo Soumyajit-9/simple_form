@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contain {
+    width: 30%;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0,0.5);
+    backdrop-filter: blur(3px);
+}
+
+.contain form label {
+    display: inline-block;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.contain form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.contain form input[type='checkbox'] {
+    display: inline-block;
+    width:10%;
+}
+.btn {
+    text-transform: capitalize;
+    background-color: rgba(255, 123, 0, 0.918);
+    font-size: 14px;
+    border: none;
+}
+
+a {
+    color: rgba(245, 245, 245, 0.878);
+    text-transform: capitalize;
+    display: inline;
+    /* font-size: 14px; */
+}
